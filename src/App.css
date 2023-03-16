@@ -302,11 +302,11 @@ div#txt {
   font-family: "Raleway", sans-serif;
   font-size: 60px;
   font-weight: 100;
-  margin: 10px 90px;
+  margin: 14px 70px;
 }
 
 .temperature p span {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 200;
 }
 
@@ -412,19 +412,35 @@ div#txt {
   /*--agileits--*/
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 740px) {
   h1 {
     font-size: 35px;
   }
   .temperature p {
-    font-size: 100px;
+    margin:0 0 3rem 3.5rem;
+    font-size: 50px;
+    
   }
   .dmy {
-    padding-top: 25px;
+    padding-top: 10px;
+  }
+  .temperature p span {
+    font-size:45px;
+  }
+
+  .forecast-icon canvas{
+      height: 80px;
+      width: 80px;
+  }
+  .today-weather h3{
+    font-size: 30px;
+  }
+  .search-box{
+    margin-left: 20px;
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 800px) {
   .temperature p {
     font-size: 80px;
   }
@@ -510,6 +526,13 @@ div#txt {
 @media screen and (max-width: 480px) {
   /*--w3layouts--*/
   /*--agileits--*/
+  .temperature p{
+    font-size: 47px;
+    padding-bottom: 28px;
+    margin-right: 52px;
+    margin-top: -35px;
+   
+  }
   h1 {
     font-size: 28px;
     letter-spacing: 2px;
@@ -696,3 +719,11 @@ div#txt {
   right: 20px;
   top: 1.5%;
 }
+
+ 
+
+ @media (min-width: 576px){
+  .container{
+    padding-left: 0;
+  }
+} 
