@@ -524,13 +524,12 @@ div#txt {
 }
 
 @media screen and (max-width: 480px) {
-  /*--w3layouts--*/
-  /*--agileits--*/
+ 
   .temperature p{
     font-size: 47px;
-    padding-bottom: 28px;
+    padding-bottom: 22px;
     margin-right: 52px;
-    margin-top: -35px;
+    margin-top: -32px;
    
   }
   h1 {
@@ -550,7 +549,7 @@ div#txt {
     font-size: 40px;
   }
   .city {
-    min-height: 450px;
+    min-height: 368px;
   }
   .title h2 {
     font-size: 25px;
@@ -564,7 +563,8 @@ div#txt {
   }
   .dmy {
     padding: 0;
-    margin-bottom: 35px;
+    /* margin-bottom: 10px; */
+    margin-top: 15px;
     text-align: center;
     width: 100%;
   }
@@ -600,9 +600,14 @@ div#txt {
     margin-top: 60px;
   }
   .mb-icon {
-    top: 20% !important;
+    top: 10% !important;
     display: block !important;
   }
+  /* .mb-icon p {
+    left: 10%;
+    top: -1%;
+    font-size: 30px; */
+  /* } */
   .forecast-icon,
   .today-weather h3 {
     display: none;
