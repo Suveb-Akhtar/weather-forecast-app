@@ -227,8 +227,8 @@ h1 {
 
 .container {
   width: 65%;
-  height: 82vh;
-  margin: 50px auto;
+  height: 90vh;
+  margin: 2rem auto;
   background-color: rgba(0, 0, 0, 0.73);
 }
 
@@ -525,6 +525,7 @@ div#txt {
 
 @media screen and (max-width: 480px) {
  
+  
   .temperature p{
     font-size: 47px;
     padding-bottom: 22px;
